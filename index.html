@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Living Tech </title>
+    <title>Living Tech</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -46,10 +46,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Living Tech</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Living Tech </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
+            <!--Crea la tecnología, haz realidad tu mundo-->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
@@ -68,8 +69,15 @@
                         <a class="page-scroll" href="#team">Magistrales</a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="#registro">Registro</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#patrocinadores">Patrocinadores</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#contact">Escribenos</a>
                     </li>
+                    
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -78,66 +86,133 @@
     </nav>
 
     <!-- Header -->
-    <header>
-        <div class="container">
+  <header id="myCarousel" class="carousel slide">
+       <!--<div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Living Tech</div>
-                <div class="intro-heading">Vive la tecnologia cerca de ti</div>
-                <a href="#services" class="page-scroll btn btn-xl">Cuentame más</a>
+                <div class="intro-lead-in">Welcome To Our Studio!</div>
+                <div class="intro-heading">It's Nice To Meet You</div>
+                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+            </div>
+        </div>-->
+       <!-- Header Carousel -->
+    
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill"><img src="img/header-bg.jpg"></div>
+                <div class="carousel-caption">
+                    <h2>Imagen 1</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" ><img src="img/escape-preview.png"></div>
+                <div class="carousel-caption">
+                    <h2>Imagen 2</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url(img/startup-framework.png&text=Slide Three);"><img src="img/startup-framework.png"></div>
+                <div class="carousel-caption">
+                    <h2>Imagen 3</h2>
+                </div>
             </div>
         </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </div>
     </header>
+    
+   
 
     <!-- Services Section -->
-    <section id="services">
+ <section id="services">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">¿Qué es?</h2>
-                    <h3 class="section-subheading text-muted">Living Tech es un evento internacional que tiene por objetivo XYZ, reunimos para ti a los
-                    mejores expertos de distintas areas de tecnologia que tienen un alto impacto sobre XSD</h3>
+                    <h4 class="section-subheading text-muted">Living Tech es un evento internacional que tiene por objetivo XYZ, reunimos para ti a los
+                    mejores expertos de distintas areas de tecnologia que tienen un alto impacto sobre XSD
+                    </h4>
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-6">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Evento Gratuito</h4>
-                    <p class="text-muted">Traemos para ti Living Tech, sin costo alguno
-                    ven a disfrutar de una experiencia unica, convive con nuestros ponentes 
-                    y aprende de los mejores por que tu eres de los mejores.</p>
+                    <h4 class="service-heading">Networking</h4>
+                    <p class="text-muted">Buscamos interconectar a miles personas y grupos de gente en el año, ven y disfruta con nosotros
+                    nuestros eventos que traen para ti ponentes internacionales
+                    </p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-6">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Internet de alta velocidad</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                    Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="service-heading">Open source</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-6">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Datos Seguros</h4>
-                    <p class="text-muted">Estate tranquil, tus datos estarán seguros en nuestros 
-                    servidores de información y nadie tendra acceso.</p>
+                    <h4 class="service-heading">Web Security</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+                
+                
+                 <div class="col-md-4 col-sm-6">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Arte visual</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading"> Emprendimiento</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Robotica</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
+   <section id="portfolio" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Ponentes</h2>
-                    <h3 class="section-subheading text-muted">En Living Tech nos preocupamos por darte lo mejor.</h3>
+                    <h4 class="section-subheading text-muted">En <b>Living Tech</b> nos preocupamos por darte lo mejor.
+                    </h4>
                 </div>
             </div>
             <div class="row">
@@ -230,12 +305,13 @@
     </section>
 
     <!-- About Section -->
-    <section id="about">
+   <section id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Nuestra Agenda</h2>
-                    <h3 class="section-subheading text-muted">Descripcion de la agenda.</h3>
+                    <h4 class="section-subheading text-muted">Descripcion de la agenda.
+                    </h4>
                 </div>
             </div>
             <div class="row">
@@ -311,26 +387,26 @@
     </section>
 
     <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
+   <section id="team" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Ponentes magistrales</h2>
-                    <h3 class="section-subheading text-muted">Breve escrito de ponentes magistrales.</h3>
+                    <h4 class="section-subheading text-muted">Breve escrito de ponentes magistrales.</h4>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Kay Garland</h4>
-                        <p class="text-muted">Lead Designer</p>
+                        <h4>Ugo Contí</h4>
+                        <p class="text-muted">SG Artist</p>
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            <li><a href="https://www.facebook.com/UgoContiFantasyFactory"><i class="fa fa-facebook"></i></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            <li><a href="https://www.linkedin.com/pub/ugo-conti/2b/849/73b"><i class="fa fa-linkedin"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -338,10 +414,10 @@
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Larry Parker</h4>
-                        <p class="text-muted">Lead Marketer</p>
+                        <h4>Javier Matuk</h4>
+                        <p class="text-muted">Uno Cero</p>
                         <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            <li><a href="https://twitter.com/jmatuk"><i class="fa fa-twitter"></i></a>
                             </li>
                             <li><a href="#"><i class="fa fa-facebook"></i></a>
                             </li>
@@ -353,10 +429,10 @@
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Diana Pertersen</h4>
-                        <p class="text-muted">Lead Developer</p>
+                        <h4>Rolando Cedillo</h4>
+                        <p class="text-muted">Red Hat</p>
                         <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            <li><a href="https://twitter.com/rolman"><i class="fa fa-twitter"></i></a>
                             </li>
                             <li><a href="#"><i class="fa fa-facebook"></i></a>
                             </li>
@@ -375,7 +451,6 @@
     </section>
 
     <!-- Clients Aside -->
-    <!-- Aqui se agregan los patrocinadores -->
     <aside class="clients">
         <div class="container">
             <div class="row">
@@ -455,9 +530,9 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        <li><a href="https://twitter.com/LivingTechMX"><i class="fa fa-twitter"></i></a>
                         </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        <li><a href="https://www.facebook.com/LivingTech.Aztli/"><i class="fa fa-facebook"></i></a>
                         </li>
                         <li><a href="#"><i class="fa fa-linkedin"></i></a>
                         </li>
@@ -662,6 +737,12 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
+     <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
 
 </body>
 
