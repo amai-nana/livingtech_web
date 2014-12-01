@@ -888,3 +888,25 @@ header.carousel .fill {
     background-position: center;
     background-size: cover;
 }
+
+iframe {
+    float: left;
+    width: 600px;
+    height: 450px;
+    frameborder=0;
+    border:0;
+    margin-bottom: 4em;
+    margin-right: 4em;
+}
+
+#direccion {
+    padding-top: 4em;
+    text-align: justify;
+    color: #777;
+}
+
+#direccion.h4
+{
+    
+    text-transform:lowercase;
+}
