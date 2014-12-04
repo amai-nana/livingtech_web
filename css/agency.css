@@ -68,6 +68,8 @@ h6 {
     background-color: #222;
 }
 
+
+
 .btn-primary {
     border-color: #01AFAD;
     text-transform: uppercase;
@@ -910,3 +912,41 @@ iframe {
     
     text-transform:lowercase;
 }
+
+.bg-light-blue {
+    background-color: #01AFAD;
+    color: white;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.borde {
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: white;
+}
+
+.oculto {
+    position: fixed;
+    display: none;
+}
+
+.oculto:target {
+    display: block;
+    transition: none;
+    position: relative;
+    z-index: 2;
+    animation: abajoarriba;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;   
+}
+
+@keyframes abajoarriba {
+  0% {
+    transform: translateY(0px);}
+  }
